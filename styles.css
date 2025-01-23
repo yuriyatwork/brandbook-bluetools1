@@ -73,6 +73,15 @@ h1 div {
     /* Align text to the left */
 }
 
+.download-btn::before {
+  content: "";
+  position: absolute;
+  left: 20px; /* Отступ слева */
+  top: 0;
+  bottom: 0;
+  width: 10px; /* Ширина псевдоэлемента */
+  background: transparent; /* Фоновый цвет */
+}
 
 .download-btn:hover {
     color: blue;
