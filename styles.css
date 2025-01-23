@@ -169,7 +169,7 @@ h1 div {
     
     .button-section {
         text-align: center;
-        width: 800px; /* Задаем ширину в пикселях */
+        width: 50% /* Задаем ширину в пикселях */
   height: 100px; /* Задаем высоту в пикселях */
         background-color: #f0f0f0;
     }
