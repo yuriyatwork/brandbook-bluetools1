@@ -75,6 +75,7 @@ h1 div {
 
 .hiding {
     color: #ED6B21;
+    text-decoration-color: #ED6B21;
 }
 
 .download-btn:hover {
