@@ -46,9 +46,17 @@ h1 div {
     cursor: pointer;
     /* Add margin to create space below buttons */
     display: inline-block;
-    text-align: left;
     border-radius: 0 10px 10px 0;
 
+@media (min-width: 768px) {
+    text-align: center;;
+  }
+
+  /* Для мобильных устройств (например, ширина экрана меньше 768px) */
+  @media (max-width: 767px) {
+    text-align: left;
+  }
+    
 @media (min-width: 768px) {
     width: 33%;
   }
