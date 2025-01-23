@@ -73,6 +73,44 @@ h1 div {
     /* Align text to the left */
 }
 
+.download-btn1 {
+    text-decoration: underline;
+    background-color: #000000;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    /* Add margin to create space below buttons */
+    display: inline-block;
+    border-radius: 0 10px 10px 0;
+
+@media (min-width: 768px) {
+    text-align: center;;
+  }
+
+  /* Для мобильных устройств (например, ширина экрана меньше 768px) */
+  @media (max-width: 767px) {
+    text-align: left;
+  }
+    
+@media (min-width: 768px) {
+    width: 33%;
+  }
+
+  /* Для мобильных устройств (например, ширина экрана меньше 768px) */
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+    
+    /*width: 33%;*/
+    position: absolute; 
+    left: 0
+    /* width: 350px; */
+    /* Align text to the left */
+}
+
 .download-btn:hover {
     color: blue;
 }
