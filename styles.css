@@ -37,7 +37,7 @@ h1 div {
 
 .download-btn {
     text-decoration: underline;
-    background-color: #ED6B21;
+    background-color: #000000;
     color: blue;
     border: none;
     padding: 10px 20px;
@@ -75,7 +75,7 @@ h1 div {
 
 .download-btn1 {
     text-decoration: underline;
-    background-color: #000000;
+    background-color: #ED6B21;
     color: blue;
     border: none;
     padding: 10px 20px;
