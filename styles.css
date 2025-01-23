@@ -68,7 +68,7 @@ h1 div {
     
     /*width: 33%;*/
     position: absolute; 
-    left: 0
+    left: 10px;
     /* width: 350px; */
     /* Align text to the left */
 }
