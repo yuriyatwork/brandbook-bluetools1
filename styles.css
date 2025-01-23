@@ -6,8 +6,8 @@ body {
   background-attachment: fixed;
     color: #fff;
     display: flex;
-    justify-content: center; /* Центрування по горизонталі */
-    align-items: center;     /* Центрування по вертикалі */
+    justify-content: center; 
+    align-items: center;     
     margin: 0;
     text-transform: none;
 }
@@ -44,7 +44,6 @@ h1 div {
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    /* Add margin to create space below buttons */
     display: inline-block;
     border-radius: 0 10px 10px 0;
 
@@ -52,7 +51,7 @@ h1 div {
     text-align: center;;
   }
 
-  /* Для мобильных устройств (например, ширина экрана меньше 768px) */
+
   @media (max-width: 767px) {
     text-align: left;
   }
@@ -61,16 +60,15 @@ h1 div {
     width: 33%;
   }
 
-  /* Для мобильных устройств (например, ширина экрана меньше 768px) */
+
   @media (max-width: 767px) {
     width: 90%;
   }
     
-    /*width: 33%;*/
+ 
     position: absolute; 
     left: 0;
-    /* width: 350px; */
-    /* Align text to the left */
+
 }
 
 .hiding {
@@ -85,15 +83,15 @@ h1 div {
 
 .pallete-button {
     display: inline-block;
-    /*border: solid 1px #ED6B21;*/
+
     color: #ED6B21;
-    /*padding: 7px 20px 5px 20px;*/
+
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    /* Add margin to create space below buttons */
+
     text-align: center;
-    /* Align text to the left */
+
 }
 
 .pallete-blocks {
