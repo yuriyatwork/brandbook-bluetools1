@@ -169,8 +169,9 @@ h1 div {
     
     .button-section {
         text-align: center;
+        background-color: #f0f0f0;
     }
-
+ 
     .download-btn.logo {
         margin-top: 25px;
     }
